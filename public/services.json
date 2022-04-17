@@ -1,0 +1,38 @@
+[
+    {
+        "id": 1,
+        "name": "Ropes Workout",
+        "price": "$300",
+        "img": "https://i.ibb.co/hFWjbTC/total-shape.jpg"
+    },
+    {
+        "id": 2,
+        "name": "Equipment Workout",
+        "price": "$100",
+        "img": "https://i.ibb.co/w4nF4sT/gym-equipment.jpg"
+    },
+    {
+        "id": 3,
+        "name": "Barbel Workout",
+        "price": "$150",
+        "img": "https://i.ibb.co/8DsnVvH/gym-with-barbel.jpg"
+    },
+    {
+        "id": 4,
+        "name": "Pull Ups Rings",
+        "price": "$180",
+        "img": "https://i.ibb.co/3RHLRSP/pull-ups-rings.jpg"
+    },
+    {
+        "id": 5,
+        "name": "Slam Ball Workout",
+        "price": "$100",
+        "img": "https://i.ibb.co/cbQxyF1/slam-ball-workout.jpg"
+    },
+    {
+        "id": 6,
+        "name": "Total Shape Workout",
+        "price": "$300",
+        "img": "https://i.ibb.co/hFWjbTC/total-shape.jpg"
+    }
+]
