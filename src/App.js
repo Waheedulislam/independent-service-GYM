@@ -1,10 +1,19 @@
+import { Route, Routes } from 'react-router-dom';
 import './App.css';
+import About from './Pages/About/About';
+import Home from './Pages/Home/Home/Home';
+import Footer from './Pages/Shared/Footer/Footer';
+import Header from './Pages/Shared/Header/Header';
 
 function App() {
   return (
     <div>
-      <h1>Welcome</h1>
-      <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quos harum deserunt ipsam ea nihil praesentium itaque eum deleniti nulla provident? Numquam voluptatibus suscipit deserunt iusto nemo doloremque ab delectus architecto?</p>
+      <Header></Header>
+      <Routes>
+        <Route path='/' element={<Home></Home>}></Route>
+        <Route path='/about' element={<About></About>}></Route>
+      </Routes>
+      <Footer></Footer>
     </div>
   );
 }
