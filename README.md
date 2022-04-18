@@ -5,7 +5,7 @@ Click  here to Live-Site-link: https://gym-trainer-services.web.app.
 
 ## This website details:
 ***
-A list of cartoons used within the project and details:
+A list of Body Flex Gym used within the project and details:
 
 1)  It is a React Body Flex Gym webpage.
 
@@ -17,4 +17,6 @@ A list of cartoons used within the project and details:
 
 5)  Many important things have been used in the routes.
 
-6) This website has been granted copyright (Copyright © 2022 bodyflexgym.com)
+6) Register and login has been used email-verification and forget-password.
+
+7) This website has been granted copyright (Copyright © 2022 bodyflexgym.com)
