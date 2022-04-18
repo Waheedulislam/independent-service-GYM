@@ -1,0 +1,26 @@
+.left-div {
+    background-color: #1b2933;
+    width: 300px;
+}
+
+.p-style {
+    font: 1em sans-serif;
+    font-size: 20px;
+}
+
+.right-div {
+    background-color: #1b2933;
+    width: 300px;
+}
+
+.span-style {
+    font-size: 20px;
+}
+
+.d-flex {
+    margin-left: 30px;
+}
+
+.text-color {
+    color: white;
+}
