@@ -11,12 +11,12 @@ const SocialLogin = () => {
     const [signInWithGoogle, user, loading, error] = useSignInWithGoogle(auth);
     const [signInWithGithub, user1, loading1, error1] = useSignInWithGithub(auth);
     const navigate = useNavigate();
-    let errorElement;
 
+    let errorElement;
     if (error || error1) {
         errorElement =
             < div >
-                <p className='text-danger'>Error: {error?.message} {error1?.message}</p>
+                <h6 className='text-danger'>Error: {error?.message} {error1?.message}</h6>
             </div >
     }
 
@@ -34,7 +34,7 @@ const SocialLogin = () => {
             {
                 errorElement
             }
-            <div>
+            <div style={{ marginBottom: '100px', marginTop: '0' }}>
                 <Button variant=""
                     onClick={() => signInWithGoogle()}
                     className="btn-hight btn custom-bg-color btn-color  mx-auto d-block mt-2 w-50 ">

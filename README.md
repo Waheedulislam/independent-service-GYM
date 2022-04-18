@@ -1,7 +1,7 @@
 # Body Flex Gym
-## [Live-Site]( https://melodic-kataifi-27b80e.netlify.app/.)
+## [Live-Site]( https://gym-trainer-services.web.app)
 
-Click  here to Live-Site-link: https://melodic-kataifi-27b80e.netlify.app/.
+Click  here to Live-Site-link: https://gym-trainer-services.web.app.
 
 ## This website details:
 ***
