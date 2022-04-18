@@ -11,10 +11,10 @@ A list of cartoons used within the project and details:
 
 2)  It is a Single page application.
 
-3)  It has been used  Pie Chart,LineChart,AreaChart etc.
+3)  It has been used  firebase framework .
 
-4)  Many important things have been used in the routes.
+4)  It has been used many framework. firebase react hooks,react-bootstrap,bootstrap,custom-css etc
 
-5)  This single page website has user's feed Back.And the  user's has been given five star feedback on all the components. 
+5)  Many important things have been used in the routes.
 
 6) This website has been granted copyright (Copyright © 2022 bodyflexgym.com)
