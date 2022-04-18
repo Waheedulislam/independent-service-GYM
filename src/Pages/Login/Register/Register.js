@@ -6,10 +6,10 @@ import auth from '../../../firebase.init';
 import SocialLogin from '../SocialLogin/SocialLogin';
 import { Button } from 'react-bootstrap';
 import { async } from '@firebase/util';
+import Loading from '../../Shared/Loading/Loading';
 
 const Register = () => {
     const [agree, setAgree] = useState(false);
-
     const [
         createUserWithEmailAndPassword,
         user,
@@ -24,6 +24,9 @@ const Register = () => {
         navigate('/login')
     }
 
+    if (loading || updating) {
+        return <Loading></Loading>
+    }
     if (user) {
         console.log(user, 'user');
     }

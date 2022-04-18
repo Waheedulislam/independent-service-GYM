@@ -4,7 +4,9 @@ import { Link, useLocation, useNavigate } from 'react-router-dom';
 import { useSendPasswordResetEmail, useSignInWithEmailAndPassword } from 'react-firebase-hooks/auth';
 import auth from '../../../firebase.init';
 import SocialLogin from '../SocialLogin/SocialLogin';
-import { updatePassword } from 'firebase/auth';
+import Loading from '../../Shared/Loading/Loading';
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 const Login = () => {
     const emailRef = useRef('');
@@ -21,13 +23,15 @@ const Login = () => {
         error,
     ] = useSignInWithEmailAndPassword(auth);
 
-    // resetPasswore
-    const [sendPasswordResetEmail] = useSendPasswordResetEmail(
+    // resetPassword
+    const [sendPasswordResetEmail, sending] = useSendPasswordResetEmail(
         auth
     );
 
 
-
+    if (loading || sending) {
+        return <Loading></Loading>
+    }
     if (user) {
         navigate(from, { replace: true });
     }
@@ -49,8 +53,13 @@ const Login = () => {
     }
     const resetPassword = async () => {
         const email = emailRef.current.value;
-        await sendPasswordResetEmail(email);
-        alert('Sent email');
+        if (email) {
+            await sendPasswordResetEmail(email);
+            toast('Send email');
+        }
+        else {
+            toast(('please enter your email adders'))
+        }
     }
 
     return (
@@ -71,9 +80,13 @@ const Login = () => {
             }
             <h6 style={{ paddingTop: '15px' }}>New to Body Flex Gym? <Link to='/register' className='text-danger text-decoration-none' onClick={navigateRegister}>Please Register</Link></h6>
 
-            <h6 style={{ paddingTop: '15px' }}>Forget password? <Link to='/register' className='text-danger text-decoration-none' onClick={resetPassword}>Reset Password</Link></h6>
+            <h6 style={{ paddingTop: '15px' }}>Forget password?
+
+                <button className='btn btn-link pt-3 ps-2 text-danger text-decoration-none' onClick={resetPassword}><h6>Reset Password</h6></button>
+            </h6>
             <SocialLogin></SocialLogin>
-        </div>
+            <ToastContainer />
+        </div >
     );
 };
 

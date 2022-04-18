@@ -3,36 +3,42 @@
         "id": 1,
         "name": "Ropes Workout",
         "price": "$300",
-        "img": "https://i.ibb.co/JxB277F/exercise-ropes-2.jpg"
+        "img": "https://i.ibb.co/JxB277F/exercise-ropes-2.jpg",
+        "detail": "sideways on to where the rope ends are fixed, holding the other ends of the ropes in each hand."
     },
     {
         "id": 2,
         "name": "Equipment Workout",
         "price": "$100",
-        "img": "https://i.ibb.co/w4nF4sT/gym-equipment.jpg"
+        "img": "https://i.ibb.co/w4nF4sT/gym-equipment.jpg",
+        "detail": "They include weight plates, benches, dumbbells, workout racks, and storage racks"
     },
     {
         "id": 3,
         "name": "Barbel Workout",
         "price": "$150",
-        "img": "https://i.ibb.co/8DsnVvH/gym-with-barbel.jpg"
+        "img": "https://i.ibb.co/8DsnVvH/gym-with-barbel.jpg",
+        "detail": "barbells allow us to load progressively heavier weights, and because we can safely lift in lower rep ranges"
     },
     {
         "id": 4,
         "name": "Pull Ups Rings",
         "price": "$180",
-        "img": "https://i.ibb.co/3RHLRSP/pull-ups-rings.jpg"
+        "img": "https://i.ibb.co/3RHLRSP/pull-ups-rings.jpg",
+        "detail": "Ring pull-ups can help build muscles in your arms, neck, shoulders, back, and core"
     },
     {
         "id": 5,
         "name": "Slam Ball Workout",
         "price": "$100",
-        "img": "https://i.ibb.co/cbQxyF1/slam-ball-workout.jpg"
+        "img": "https://i.ibb.co/cbQxyF1/slam-ball-workout.jpg",
+        "detail": "The slam ball, otherwise known as a medicine ball, is a highly useful and versatile workout tool."
     },
     {
         "id": 6,
         "name": "Total Shape Workout",
         "price": "$300",
-        "img": "https://i.ibb.co/hFWjbTC/total-shape.jpg"
+        "img": "https://i.ibb.co/hFWjbTC/total-shape.jpg",
+        "detail": "Shape is all about body conditioning using a variety of routines to train your chest"
     }
 ]
