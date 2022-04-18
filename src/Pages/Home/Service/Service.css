@@ -1,0 +1,5 @@
+/* style={{ width: '20rem', border: '1px solid ' }} */
+.card {
+    border: 1px solid slategrey;
+    height: 24rem;
+}
